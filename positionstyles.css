@@ -35,7 +35,7 @@ gap: 20px;
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 50px 50px 50px 50px;
 }
 .red2 {
   width: 100px; 
@@ -47,21 +47,21 @@ gap: 20px;
   height: 100px; 
   background-color: green; 
   margin-top: 50px;
-  margin-left: -150px;
+  margin-left: 5px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
   margin-top: 100px;
-  margin-left: -300px;
+  margin-left: 10px;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue;
   margin-top: 150px;
-  margin-left: -450px; 
+  margin-left: 10px; 
 } 
 /* Activity 3 styles */ 
 .content3 {
@@ -156,7 +156,7 @@ column-gap: 80px;
 .content6 {
   /* This is the parent of the activity 6 boxes. */
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 100px 100px 100px 100px 100px 100px;
 }
 .red6 {
   width: 100%; 
