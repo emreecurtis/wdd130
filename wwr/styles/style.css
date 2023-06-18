@@ -123,10 +123,9 @@ footer .social img {padding-top: 15px;}
     font-size: 2em; 
     margin-top: 30px;}
 #rivers-hero-msg {grid-column: 2/3; 
-    grid-row: 1/2; 
-    margin-top: 100px;}
-#rivers-hero-msg h1 {text-align: center;}
-#rivers-hero-msg h4 {text-align: center;}
+    grid-row: 1/2;}
+#rivers-hero-msg h1 {text-align: center; margin-top: 150px;}
+#rivers-hero-msg h4 {text-align: center; margin-top: 100px;}
 .rivers-card-img {border: 10px solid #2E545F; 
     width: 100%; 
     transition: transform .5s; 
@@ -142,6 +141,42 @@ footer .social img {padding-top: 15px;}
     grid-row: 6/7;}
 .rivers-home-grid {display: grid; 
     grid-template-columns: repeat(10, 1fr);}
+.arizona-msg {grid-column: 5/9; 
+    grid-row: 2/3; 
+    margin: 200px 0; 
+    color: white;}
+.utah-msg {grid-column: 5/9; 
+    grid-row: 4/5; 
+    margin: 200px 0; 
+    color: white}
+.idaho-msg {grid-column: 5/9; 
+    grid-row: 6/7; 
+    margin: 200px 0; 
+    color: white;}
+.arizona-msg h2 {font-family: "Architects Daughter", "Caveat", sans-serif;}
+.arizona-msg p {font-family: "Montserrat", Verdana, sans-serif;}
+.utah-msg h2 {font-family: "Architects Daughter", "Caveat", sans-serif;}
+.utah-msg p {font-family: "Montserrat", Verdana, sans-serif;}
+.idaho-msg h2 {font-family: "Architects Daughter", "Caveat", sans-serif;}
+.idaho-msg p {font-family: "Montserrat", Verdana, sans-serif;}
+#arizona-background {height: 550px; 
+    background-color: #647D59; 
+    grid-column: 1/11; 
+    grid-row: 2/3; 
+    z-index: -1; 
+    margin-top: 100px;}
+#utah-background {height: 550px; 
+    background-color: #647D59; 
+    grid-column: 1/11; 
+    grid-row: 4/5; 
+    z-index: -1; 
+    margin-top: 100px;}
+#idaho-background {height: 525px; 
+    background-color: #647D59; 
+    grid-column: 1/11; 
+    grid-row: 6/7; 
+    z-index: -1; 
+    margin-top: 100px;}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
