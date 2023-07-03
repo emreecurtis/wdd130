@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Urbanist&display=swap');
+body {background-color: white;
+    font-family: "Montserrat", Verdana, sans-serif; 
+    font-size: 22px; 
+    margin: 0; 
+    padding: 0;}
+#background {height: 600px; 
+    background-color: #2f495e; 
+    grid-column: 1/11; 
+    grid-row: 8/10;}
+#home-content {max-width: 1600px; 
+    margin: 0 auto;}
+header {background-color: white; 
+    display: grid; 
+    grid-template-columns: 150px auto;}
+.logo {width: 150px; margin-bottom: -20px; margin-top: -20px;}
+#logo_link {padding-top: 5px; 
+    justify-self: center; 
+    align-self: center;}
+nav { display: flex; 
+    justify-content: space-around;}
+nav a{text-align: center; 
+    color: #2f495e; 
+    text-decoration: none; 
+    font-family: "Inter", sans-serif; 
+    padding: 35px; margin-top: 10px;}
+nav a:hover {background-color: #2f495e; 
+    color: white;}
+#first-background {height: 485px; 
+    background-color: #2f495e; grid-column: 1/11; grid-row: 1/4; z-index: -1;}
+.home-grid {display: grid; 
+    grid-template-columns: repeat(10, 1fr);}
+.home-title {font-family: "Urbanist", sans-serif;}
+#first-msg p {font-family: "Inter", sans-serif;}
+#first-msg {grid-row: 1/4; grid-column: 2/5; width: 600px; margin-top: 70px; color: white; text-align: left;}
+.skills { width: 150%; grid-row: 5/7; grid-column: 2/5; margin-bottom: 115px; margin-top: -400px; color: #2f495e; font-size: x-large;}
+.skills h1 {font-family: "Urbanist", sans-serif;}
+.skills p {font-family: "Inter", sans-serif;}
+.skills-two {grid-row: 6/7; grid-column: 6/10; margin-bottom: 115px; margin-top: -260px; color: #2f495e; font-size: x-large;}
+.skills-two p {font-family: "Inter"; list-style-type: circle; list-style-position: inside;}
+.interests {grid-column: 8/9; grid-row: 8/9; margin: 100px; margin-bottom: -50px; margin-left: 200px; color: white; font-size: x-large; margin-top: 150px;}
+.interests h1 {font-family: "Urbanist", sans-serif;}
+.interests-two {width: 80%; grid-column: 9/9; grid-row: 8/9; margin: 100px; margin-top: 230px; margin-bottom: -50px; margin-left: 45px; margin-right: 105px; color: white; font-size: x-large; font-family: "Inter", sans-serif;}
+.interests p {font-family: "Inter", sans-serif;}
+#first-image {width: 68%; grid-column: 7/10; grid-row: 2/5; box-shadow: 5px 5px 10px #5c5c5c; margin-left: 252px; margin-bottom: 100px;}
+.hiking {width: 150%; grid-column: 2/6; grid-row: 8/9; margin-top: 80px; border: 10px solid #6a93b4; box-shadow: 5px 5px 10px #6a93b4;}
+footer {background-color: white; 
+    color: #2f495e; 
+    font-family: "Inter", sans-serif; 
+    padding: 25px 50px; 
+    margin-top: 5px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;}
