@@ -46,6 +46,9 @@ nav a:hover {background-color: #2f495e;
 .interests p {font-family: "Inter", sans-serif;}
 #first-image {width: 68%; grid-column: 7/10; grid-row: 2/5; box-shadow: 5px 5px 10px #5c5c5c; margin-left: 100px; margin-bottom: 100px;}
 .hiking {width: 85%; grid-column: 2/6; grid-row: 8/9; margin-top: 57px; border: 10px solid #6a93b4; box-shadow: 5px 5px 10px #6a93b4; margin-left: 75px;}
+#site-plan {color: #2f495e; font-family: "Inter", sans-serif; display: flex; justify-content: space-around; align-items: center;}
+#site-plan:hover {background-color: #2f495e; 
+    color: white;}
 footer {background-color: white; 
     color: #2f495e; 
     font-family: "Inter", sans-serif; 
