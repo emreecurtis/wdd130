@@ -36,9 +36,9 @@ nav a:hover {background-color: #2f495e;
 .skills { width: 150%; grid-row: 5/7; grid-column: 2/5; margin-bottom: 115px; margin-top: -225px; color: #2f495e; font-size: x-large; margin-left: 75px;}
 .skills h1 {font-family: "Urbanist", sans-serif;}
 .skills p {font-family: "Inter", sans-serif;}
-.skills-two {grid-row: 6/7; grid-column: 4/8; margin-bottom: 115px; margin-top: -260px; color: #2f495e; font-size: x-large; margin-left: 20px;}
+.skills-two {grid-row: 6/7; grid-column: 4/8; margin-bottom: 115px; margin-top: -135px; color: #2f495e; font-size: x-large; margin-left: 40px;}
 .skills-two p {font-family: "Inter", sans-serif;}
-.skills-three {grid-row: 6/7; grid-column: 8/10; margin-bottom: 115px; margin-top: -260px; color: #2f495e; font-size: x-large;}
+.skills-three {grid-row: 6/7; grid-column: 8/10; margin-bottom: 115px; margin-top: -80px; color: #2f495e; font-size: x-large;}
 .skills-three p {font-family: "Inter", sans-serif;}
 .interests {grid-column: 8/9; grid-row: 8/9; margin: 100px; margin-bottom: -50px; margin-left: 50px; color: white; font-size: x-large; margin-top: 150px;}
 .interests h1 {font-family: "Urbanist", sans-serif;}
