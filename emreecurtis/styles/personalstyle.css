@@ -46,11 +46,11 @@ nav a:hover {background-color: #2f495e;
 .interests p {font-family: "Inter", sans-serif;}
 #first-image {width: 68%; grid-column: 7/10; grid-row: 2/5; box-shadow: 5px 5px 10px #5c5c5c; margin-left: 100px; margin-bottom: 100px;}
 .hiking {width: 85%; grid-column: 2/6; grid-row: 8/9; margin-top: 57px; border: 10px solid #6a93b4; box-shadow: 5px 5px 10px #6a93b4; margin-left: 75px;}
-#site-plan {color: #2f495e; font-family: "Inter", sans-serif; display: flex; justify-content: space-around; align-items: center;}
+#site-plan {color: white; font-family: "Inter", sans-serif; display: flex; justify-content: space-around; align-items: center;}
 #site-plan:hover {background-color: #2f495e; 
     color: white;}
-footer {background-color: white; 
-    color: #2f495e; 
+footer {background-color: #6a93b4; 
+    color: white; 
     font-family: "Inter", sans-serif; 
     padding: 25px 50px; 
     margin-top: 5px; 
@@ -62,3 +62,17 @@ footer {background-color: white;
 .resume {color: white; font-family: "Urbanist", sans-serif; text-align: center; grid-row: 1/2; grid-column: 2/5; margin: 50px; font-size: x-large;}
 .resume-img {grid-column: 2/5; margin: 80px; margin-left: 50px; border: 10px solid #2f495e;}
 #background-two {height: 50px; background-color: #2f495e; z-index: -1; grid-column: 1/6; grid-row: 5/6}
+#portfolio-first-msg {grid-column: 2/10; text-align: center; width: 100%; grid-row: 2/4; font-family: "Inter", sans-serif; color: white; margin-bottom: 100px;}
+.portfolio-title {font-family: "Urbanist", sans-serif;}
+#portfolio-first-background {grid-column: 1/11; width: 100%; z-index: -1; grid-row: 1/5; background-color: #2f495e; height: 400px; margin-bottom: 100px;}
+.portfolio-grid {display: grid; grid-template-columns: repeat(10, 1fr);}
+.poster-card {grid-column: 2/4; grid-row: 6/8; font-family: "Inter", sans-serif; font-size: small;}
+.card-card {grid-column: 5/7; grid-row: 6/8; font-family: "Inter", sans-serif; font-size: small;}
+.pamphlet-card {grid-column: 8/10; grid-row: 6/8; font-family: "Inter", sans-serif; font-size: small;}
+.card-img {width: 100%; box-shadow: 5px 5px 10px #6a93b4;}
+.card-img:hover {opacity: .6; 
+    transform: scale(1.1);}
+#portfolio-background {grid-row: 9/10; height: 100px; background-color: #2f495e; grid-column: 1/11; width: 100%; margin-top: 100px; margin-bottom: 100px;}
+.building-card {grid-column: 2/4; grid-row: 10/12; margin-bottom: 100px;}
+.sign-card {grid-column: 5/7; grid-row: 10/12; margin-bottom: 100px;}
+.fire-card {grid-column: 8/10; grid-row: 10/12; margin-bottom: 100px;}
